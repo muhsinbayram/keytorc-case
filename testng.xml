@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Keytorc - n11 Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="n11 Test">
+        <classes>
+            <class name="Tests.TestBase" />
+            <class name="Tests.n11LoginTest" />
+            <class name="Tests.n11SearchTest" />
+            <class name="Tests.n11SearchResultTest" />
+            <class name="Tests.n11FavoritesTest" />
+            <class name="Tests.n11FavoritesListTest" />
+            <class name="Tests.n11RemoveFavoritesTest" />
+        </classes>
+    </test>
+</suite>

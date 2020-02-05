@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Keytorc - n11 Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="n11 Test(failed)">
+    <classes>
+      <class name="Tests.n11FavoritesListTest">
+        <methods>
+          <include name="openFavList"/>
+        </methods>
+      </class> <!-- Tests.n11FavoritesListTest -->
+      <class name="Tests.n11RemoveFavoritesTest">
+        <methods>
+          <include name="removeFav"/>
+        </methods>
+      </class> <!-- Tests.n11RemoveFavoritesTest -->
+      <class name="Tests.n11SearchTest">
+        <methods>
+          <include name="search"/>
+        </methods>
+      </class> <!-- Tests.n11SearchTest -->
+      <class name="Tests.n11SearchResultTest">
+        <methods>
+          <include name="secondPage"/>
+        </methods>
+      </class> <!-- Tests.n11SearchResultTest -->
+      <class name="Tests.n11LoginTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Tests.n11LoginTest -->
+      <class name="Tests.n11FavoritesTest">
+        <methods>
+          <include name="favTest"/>
+        </methods>
+      </class> <!-- Tests.n11FavoritesTest -->
+    </classes>
+  </test> <!-- n11 Test(failed) -->
+</suite> <!-- Failed suite [Keytorc - n11 Test Suite] -->
